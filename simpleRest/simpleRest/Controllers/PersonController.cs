@@ -6,16 +6,18 @@ using System.Net.Http;
 using System.Web.Http;
 using simpleRest.Models;
 using System.Data.SqlClient;
+using System.Collections;
 
 namespace simpleRest.Controllers
 {
     public class PersonController : ApiController
     {
-        private SqlConnection conn;
+       
         // GET: api/Person
-        public IEnumerable<string> Get()
+        public ArrayList Get()
         {
-            return new string[] { "Persona1", "Persona2", "Persona3", "Persona4" };
+            PersonPersistencia pp = new PersonPersistencia();
+            return pp.getPersons();
         }
 
         // GET: api/Person/5

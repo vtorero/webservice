@@ -4,6 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Data.SqlClient;
 using simpleRest.Models;
+using System.Collections;
 
 namespace simpleRest
 {
@@ -69,6 +70,31 @@ namespace simpleRest
                 conn.Close();
                 return null;
             }
+
+
+        }
+
+        public ArrayList getPersons()
+        {
+
+            ArrayList personArray = new ArrayList();
+            SqlDataReader sqlReader = null;
+            String sql = "SELECT * from empleado";
+            conn.Open();
+            SqlCommand cmd = new SqlCommand(sql, conn);
+            sqlReader = cmd.ExecuteReader();
+            while (sqlReader.Read())
+            {
+                Person person = new Person();
+                person.ID = sqlReader.GetInt32(0);
+                person.Nombres = sqlReader.GetString(1);
+                person.Apellidos = sqlReader.GetString(1);
+                personArray.Add(person);
+                
+
+            }
+
+            return personArray;
 
 
         }
