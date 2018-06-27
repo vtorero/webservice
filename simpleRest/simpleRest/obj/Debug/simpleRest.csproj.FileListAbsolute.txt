@@ -135,3 +135,4 @@ D:\webservice\simpleRest\simpleRest\obj\Debug\simpleRest.csproj.CopyComplete
 D:\webservice\simpleRest\simpleRest\obj\Debug\simpleRest.dll
 D:\webservice\simpleRest\simpleRest\obj\Debug\simpleRest.pdb
 D:\webservice\simpleRest\simpleRest\bin\roslyn\System.Collections.Immutable.dll
+D:\webservice\simpleRest\simpleRest\obj\Debug\simpleRest.csprojAssemblyReference.cache

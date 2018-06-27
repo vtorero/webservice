@@ -88,7 +88,7 @@ namespace simpleRest
                 Person person = new Person();
                 person.ID = sqlReader.GetInt32(0);
                 person.Nombres = sqlReader.GetString(1);
-                person.Apellidos = sqlReader.GetString(1);
+                person.Apellidos = sqlReader.GetString(2);
                 personArray.Add(person);
                 
 

@@ -10,10 +10,12 @@ using System.Collections;
 
 namespace simpleRest.Controllers
 {
+  
     public class PersonController : ApiController
     {
-       
+
         // GET: api/Person
+        
         public ArrayList Get()
         {
             PersonPersistencia pp = new PersonPersistencia();
