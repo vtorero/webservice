@@ -5,11 +5,13 @@ using System.Net;
 using System.Net.Http;
 using System.Web.Http;
 using simpleRest.Models;
+using System.Data.SqlClient;
 
 namespace simpleRest.Controllers
 {
     public class PersonController : ApiController
     {
+        private SqlConnection conn;
         // GET: api/Person
         public IEnumerable<string> Get()
         {
@@ -19,22 +21,15 @@ namespace simpleRest.Controllers
         // GET: api/Person/5
         public Person Get(int id)
         {
-            Person person = new Person();
-            person.ID = id;
-            person.Apellidos = "Jimenez";
-            person.Nombres = "Victor";
-            person.PayRate = 45.5;
-            person.StartDate = DateTime.Parse("5/5/2000");
-            person.EndDate = DateTime.Parse("5/5/2010");
-
-            return person;
+            PersonPersistencia pp = new PersonPersistencia();
+            return pp.getPerson(id);
         }
 
         // POST: api/Person
         public HttpResponseMessage Post([FromBody] Person value)
         {
             PersonPersistencia pp = new PersonPersistencia();
-            long id;
+            int id;
             id = pp.savePerson(value);
             value.ID = id;
             HttpResponseMessage response = Request.CreateResponse(HttpStatusCode.Created);

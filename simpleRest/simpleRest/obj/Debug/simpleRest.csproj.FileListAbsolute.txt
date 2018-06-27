@@ -67,12 +67,6 @@ C:\Users\vjimenez\Documents\Visual Studio 2017\Projects\simpleRest\simpleRest\ob
 C:\Users\vjimenez\Documents\Visual Studio 2017\Projects\simpleRest\simpleRest\obj\Debug\simpleRest.csproj.CopyComplete
 C:\Users\vjimenez\Documents\Visual Studio 2017\Projects\simpleRest\simpleRest\obj\Debug\simpleRest.dll
 C:\Users\vjimenez\Documents\Visual Studio 2017\Projects\simpleRest\simpleRest\obj\Debug\simpleRest.pdb
-D:\webservice\simpleRest\simpleRest\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
-D:\webservice\simpleRest\simpleRest\bin\roslyn\Microsoft.CodeAnalysis.dll
-D:\webservice\simpleRest\simpleRest\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
-D:\webservice\simpleRest\simpleRest\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
-D:\webservice\simpleRest\simpleRest\bin\roslyn\System.IO.Compression.dll
-D:\webservice\simpleRest\simpleRest\bin\roslyn\VBCSCompiler.exe
 D:\webservice\simpleRest\simpleRest\bin\simpleRest.dll.config
 D:\webservice\simpleRest\simpleRest\bin\simpleRest.dll
 D:\webservice\simpleRest\simpleRest\bin\simpleRest.pdb
@@ -83,18 +77,22 @@ D:\webservice\simpleRest\simpleRest\bin\roslyn\csi.exe
 D:\webservice\simpleRest\simpleRest\bin\roslyn\csi.exe.config
 D:\webservice\simpleRest\simpleRest\bin\roslyn\csi.rsp
 D:\webservice\simpleRest\simpleRest\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\webservice\simpleRest\simpleRest\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
 D:\webservice\simpleRest\simpleRest\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\webservice\simpleRest\simpleRest\bin\roslyn\Microsoft.CodeAnalysis.dll
 D:\webservice\simpleRest\simpleRest\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\webservice\simpleRest\simpleRest\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
 D:\webservice\simpleRest\simpleRest\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\webservice\simpleRest\simpleRest\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
 D:\webservice\simpleRest\simpleRest\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
 D:\webservice\simpleRest\simpleRest\bin\roslyn\Microsoft.VisualBasic.Core.targets
 D:\webservice\simpleRest\simpleRest\bin\roslyn\Microsoft.Win32.Primitives.dll
 D:\webservice\simpleRest\simpleRest\bin\roslyn\System.AppContext.dll
-D:\webservice\simpleRest\simpleRest\bin\roslyn\System.Collections.Immutable.dll
 D:\webservice\simpleRest\simpleRest\bin\roslyn\System.Console.dll
 D:\webservice\simpleRest\simpleRest\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
 D:\webservice\simpleRest\simpleRest\bin\roslyn\System.Diagnostics.Process.dll
 D:\webservice\simpleRest\simpleRest\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\webservice\simpleRest\simpleRest\bin\roslyn\System.IO.Compression.dll
 D:\webservice\simpleRest\simpleRest\bin\roslyn\System.IO.FileSystem.dll
 D:\webservice\simpleRest\simpleRest\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
 D:\webservice\simpleRest\simpleRest\bin\roslyn\System.IO.FileSystem.Primitives.dll
@@ -117,6 +115,7 @@ D:\webservice\simpleRest\simpleRest\bin\roslyn\System.Xml.XPath.XDocument.dll
 D:\webservice\simpleRest\simpleRest\bin\roslyn\vbc.exe
 D:\webservice\simpleRest\simpleRest\bin\roslyn\vbc.exe.config
 D:\webservice\simpleRest\simpleRest\bin\roslyn\vbc.rsp
+D:\webservice\simpleRest\simpleRest\bin\roslyn\VBCSCompiler.exe
 D:\webservice\simpleRest\simpleRest\bin\roslyn\VBCSCompiler.exe.config
 D:\webservice\simpleRest\simpleRest\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
 D:\webservice\simpleRest\simpleRest\bin\Newtonsoft.Json.dll
@@ -135,3 +134,4 @@ D:\webservice\simpleRest\simpleRest\obj\Debug\simpleRest.csproj.CoreCompileInput
 D:\webservice\simpleRest\simpleRest\obj\Debug\simpleRest.csproj.CopyComplete
 D:\webservice\simpleRest\simpleRest\obj\Debug\simpleRest.dll
 D:\webservice\simpleRest\simpleRest\obj\Debug\simpleRest.pdb
+D:\webservice\simpleRest\simpleRest\bin\roslyn\System.Collections.Immutable.dll
